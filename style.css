@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 500vh;
+}
+
+/* My extra design for website */
+.mainContent {
+    background-color: #fcf9f9;
+    padding: 20px;
+    position: relative;
+}
+
+.mainContent>.newBlog {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo>h1 {
+    font-weight: 700;
+    font-size: 80px;
+    color: #f5f5f5;
+    text-shadow: 0px 5px 5px #919191,
+        0px 3px 0px #919191,
+        0px 4px 0px #919191,
+        0px 5px 0px #919191,
+        0px 7px 0px #919191,
+        0px 8px 0px #919191,
+        0px 7px 0px #919191,
+        0px 8px 0px #919191,
+        0px 10px 0px #919191,
+        0px 15px 1px #ffffff
+}
+
+.menuBar {
+    display: flex;
+}
+
+.menuBar>li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.menuBar>li>a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+/* 2nd block
+Assainment Requairment
+*/
+.box {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.img>img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.img>img {
+    border: 5px solid black;
+    animation: na 3s ease-in-out;
+}
+
+@keyframes na {
+    0% {
+        transform: translate(0px, 500px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes to {
+    0% {
+        transform: translate(-1000px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.text>table {
+    font-size: 20px;
+    margin-left: 50px;
+    animation: to 3s ease-in-out;
+}
+
+.text>table {
+    border-collapse: collapse;
+
+}
+
+.text>table>tr>th,
+td {
+    padding: 20px 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.text>table>td,
+th {
+    padding: 15px 30px;
+}
+
+/* My extra desing for attractive website  */
+.star i{
+    color: gold;
+    font-size: 20px;
+}
+.star>.starBox1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    
+    animation: star1 3s ease-in-out 2.5s;
+    top: -30px;
+    left: 0;
+    position: absolute;
+}
+
+@keyframes star1 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+
+
+.star>.starBox2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star2 3s ease-in-out 2.5s;
+    top: -150px;
+    left: 50px;
+    position: absolute;
+}
+
+
+
+@keyframes star2 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star3 3s ease-in-out 2.5s;
+    top: -200px;
+    left: 100px;
+    position: absolute;
+}
+
+@keyframes star3 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox4 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star4 3s ease-in-out 2.5s;
+    top: -100px;
+    left: 150px;
+    position: absolute;
+}
+
+@keyframes star4 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox5 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star5 3s ease-in-out 2.5s;
+    top: -150px;
+    left: 450px;
+    position: absolute;
+}
+
+@keyframes star5 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox6 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star6 3s ease-in-out 2.5s;
+    top: -50px;
+    left: 50px;
+    position: absolute;
+}
+
+@keyframes star6 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox7 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star7 3s ease-in-out 2.5s;
+    top: -600px;
+    left: 100px;
+    position: absolute;
+}
+
+@keyframes star7 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox8 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star8 3s ease-in-out 2.5s;
+    top: -650px;
+    left: 350px;
+    position: absolute;
+}
+
+@keyframes star8 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox9 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star9 3s ease-in-out 2.5s;
+    top: -200px;
+    left: 200px;
+    position: absolute;
+}
+
+@keyframes star9 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox10 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star10 3s ease-in-out 2.5s;
+    top: -150px;
+    left: 400px;
+    position: absolute;
+}
+
+@keyframes star10 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox11 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star11 3s ease-in-out 2.5s;
+    top: -100px;
+    left: 600px;
+    position: absolute;
+}
+
+@keyframes star11 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox12 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star12 3s ease-in-out 2.5s;
+    top: -300px;
+    left: 800px;
+    position: absolute;
+}
+
+@keyframes star12 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox13 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star13 3s ease-in-out 2.5s;
+    top: -200px;
+    left: 1000px;
+    position: absolute;
+}
+
+@keyframes star13 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox14 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star14 3s ease-in-out 2.5s;
+    top: -400px;
+    left: 1200px;
+    position: absolute;
+}
+
+@keyframes star14 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
+
+.star>.starBox15 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: star15 3s ease-in-out 2.5s;
+    top: -200px;
+    left: 1480px;
+    position: absolute;
+}
+
+@keyframes star15 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 1000px);
+    }
+}
